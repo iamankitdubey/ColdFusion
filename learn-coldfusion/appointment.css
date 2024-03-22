@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./blur-hospital_1203-7972.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: auto; */
+ }
+/* .body-div{
+    background-image: url(blur-hospital_1203-7972.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+} */
+form{
+    width: 50%;
+    height: 100%;
+    font-family:"Gill Sans", sans-serif; 
+    /* border: 1px solid; */
+    border-radius: 10px;
+    background-color: rgb(188, 230, 244);
+    overflow-y: auto;
+    margin: 30px;
+    box-shadow: 0px 10px 20px grey;
+
+}
+.header{
+    border-radius:10px;
+    text-align: center;
+    height: 15%;
+    padding: 30px;
+}
+input{ 
+    padding: 8px 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.div-contact{
+    display: flex;
+}
+.div-mobile{
+    margin-left: 14px;
+}
+.div-details{
+    padding-left: 40px;
+}
+button{
+    height: 40px;
+    width: 30%;
+    border: none;
+    color: rgb(10, 10, 10);
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold; 
+}
+span{
+    color: red;
+}
